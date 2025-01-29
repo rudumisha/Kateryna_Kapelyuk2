@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+body {
+    font-family: "Neucha", serif;
+    background-color: #C07D6A;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Шапка */
+header {
+    background-color: #E6AFA0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    margin-right: 160px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #DCDCDC;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: #6D3A2D;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* Головний заголовок */
+h1 {
+    text-align: center;
+    color: #803924;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+/* Галерея */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Опис */
+.description {
+    background-color: #C88BA1;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+/* Футер */
+footer {
+    background-color: #C0996A;
+    padding: 15px;
+    margin-top: 30px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
