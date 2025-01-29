@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+body {
+    font-family: "Neucha", serif;
+    background-color: #C07D6A;
+    color: white;
+    margin: 0;
+}
+
+/* Шапка */
+header {
+    background-color: #E6AFA0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    margin-right: 160px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #DCDCDC;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: #6D3A2D;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* Головний заголовок */
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #803924;
+    margin-top: 20px;
+}
+
+/* Меню */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.article {
+    width: 18%;
+    min-width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.article ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.article li {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
+   
+}
+
+/* Кольори блоків */
+.article_1 { background-color: #9D567B; }
+.article_2 { background-color: #82385F; }
+.article_3 { background-color: #BB82A0; }
+.article_4 { background-color: #C15D80; }
+.article_5 { background-color: #9F355A; }
+
+/* Футер */
+footer {
+    background-color: #894690;
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+section.головна {
+    display: flex;
+    flex-direction: column; /* Розміщує елементи в колонку */
+    gap: 15px; /* Відступи між елементами */
+    max-width: 600px; /* Задає максимальну ширину контейнера */
+    margin: 0 auto; /* Центрує секцію */
+}
+article {
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+.article_1 ul li {
+    list-style: url("https://learn.logikaschool.com/uploads/student/4742782/67994ec71d8eb.png");
+   
+}
+.article_2 ul li {
+    list-style: url("https://learn.logikaschool.com/uploads/student/4742782/67994ec71d8eb.png");
+   
+}
+.article_3 ul li {
+    list-style: url("https://learn.logikaschool.com/uploads/student/4742782/67994ec71d8eb.png");
+   
+}.article_4 ul li {
+    list-style: url("https://learn.logikaschool.com/uploads/student/4742782/67994ec71d8eb.png");
+   
+}.article_5 ul li {
+    list-style: url("https://learn.logikaschool.com/uploads/student/4742782/67994ec71d8eb.png");
+   
+}
